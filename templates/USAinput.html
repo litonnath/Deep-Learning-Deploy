@@ -1,0 +1,59 @@
+<html>  
+<head>  
+<title>Property Prediction</title>  
+</head> 
+<style>
+.Bound{
+border:2px solid black;
+ width:400px;
+text-align: center;
+ padding:30px;
+ display: flex;
+text-align: center;
+float:right;
+ 
+}
+
+h1{
+border:2px solid black;
+background-color:#80ced6;
+}
+
+
+.but{
+text-align: center;
+}
+img{
+border:5px solid black;
+float:left;
+}
+</style> 
+<body>  
+<h1><center>USA Property Price Prediction</center></h1> 
+ 
+<div >
+<img alt="content" class="object1" src="https://source.unsplash.com/1000x500/?House">
+<div class='Bound'>
+<form action="/USAinput" method = "post">
+  <strong><label for="Avg. Area Income"> Your   Income  :  </label></strong1>
+  <input type="text" id="Avg. Area Income" name="fname1"><br><br>
+<p>-Write your Annual Income?eg.. 100000,500000,340000.3400034,</p>
+<br>
+  <label for="Avg. Area House Age">House Age     :</label>
+  <input type="text" id="Avg. Area House Age" name="fname2"><br><br>
+<p>-How old House do you looking for?eg..1,2,3,4</p>
+<br>
+   <label for="Area Population">Area Population  :  </label>
+  <input type="text" id="Area Population" name="fname3"><br><br>
+<p>-How populated area you are looking for ,eg...10000,12000,100000?</p>
+<br>
+  <button type="submit" class='but'>Submit</button>
+<br>
+<br>
+<p>Price Of property: {{name}}</p> 
+</form>
+</div>
+</div>
+ 
+</body>  
+</html>  
