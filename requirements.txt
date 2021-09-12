@@ -7,3 +7,5 @@ scrapy~=2.5.0
 pudb~=2021.1
 joblib~=1.0.1
 itemadapter~=0.3.0
+
+gunicorn==20.0.4
