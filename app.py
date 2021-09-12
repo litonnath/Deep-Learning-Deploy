@@ -2,7 +2,7 @@ from flask import Flask,request,jsonify,render_template
 import numpy as np
 import pickle
 
-app=Flask(__name__,template_folder='template')
+app=Flask(__name__)
 
 
 joblib_file = "UsaHouse_Model.pkl"
