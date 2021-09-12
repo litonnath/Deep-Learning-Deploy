@@ -25,11 +25,7 @@ def load_image(img_pa):
     h1 = np.expand_dims(resized_image, axis=0)
     h1 = h1 / 255.0
 
-    plt.figure()
 
-    plt.imshow(h1[0])
-
-    plt.show()
 
     best_model = load_model('best_model.h5')
 
