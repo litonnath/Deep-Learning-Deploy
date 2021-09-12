@@ -1,4 +1,4 @@
-﻿absl-py @ file:///home/conda/feedstock_root/build_artifacts/absl-py_1623774798911/work
+absl-py @ file:///home/conda/feedstock_root/build_artifacts/absl-py_1623774798911/work
 alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
 anaconda-client==1.7.2
 anaconda-navigator==2.0.4
@@ -334,5 +334,3 @@ zict==2.0.0
 zipp @ file:///tmp/build/80754af9/zipp_1615904174917/work
 zope.event==4.5.0
 zope.interface @ file:///C:/ci/zope.interface_1616357322857/work
-
-
