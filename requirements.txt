@@ -335,7 +335,6 @@ zipp @ file:///tmp/build/80754af9/zipp_1615904174917/work
 zope.event==4.5.0
 zope.interface @ file:///C:/ci/zope.interface_1616357322857/work
 
-matplotlib==3.3.4
 numpy==1.19.5
 pillow==8.2.0
 flask==1.1.2
