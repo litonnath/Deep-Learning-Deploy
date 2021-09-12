@@ -1,7 +1,7 @@
 # from sklearn.preprocessing import StandardScaler
 import os
 
-
+from app import app
 
 from flask import Flask,request,jsonify,render_template
 
